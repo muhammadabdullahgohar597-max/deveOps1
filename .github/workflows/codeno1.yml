@@ -1,0 +1,16 @@
+name: Abdullah
+
+on: 
+ push:
+   branches:
+     - main
+
+
+
+jobs:
+  verson:
+    runs-on: ubuntu-latest
+    steps:
+      - name: codeno1
+        run: echo "Hello"
+     
